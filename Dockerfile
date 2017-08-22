@@ -74,5 +74,5 @@ COPY plugins.sh /usr/local/bin/plugins.sh
 COPY install-plugins.sh /usr/local/bin/install-plugins.sh
 
 USER root
-RUN apt-get install -y libpng-dev
+RUN apt-get install -y libpng-dev build-essential
 USER ${user}
